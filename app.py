@@ -126,7 +126,7 @@ with st.form("planner_form"):
     )
 
     interests = st.text_input(
-        "✨ Interests ",
+        "✨ Interests",
         value=st.session_state.last_interests,
         placeholder="e.g., temples, food, beaches, heritage",
     )

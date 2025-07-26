@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: elasticsearch
-          image: docker.elastic.co/elasticsearch/elasticsearch:7.10.2
+          image: docker.elastic.co/elasticsearch/elasticsearch:7.17.10
           env:
             - name: discovery.type
               value: single-node

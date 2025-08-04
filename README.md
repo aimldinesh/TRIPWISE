@@ -25,6 +25,83 @@
 
 ---
 
+## 🧱 Project Structure
+```bash
+TripWise/
+│
+├── app.py                      # Streamlit main app
+├── requirements.txt            # Python dependencies
+├── setup.py                    # Package setup
+├── .env                        # Environment variables
+├── Dockerfile                  # Docker image definition
+├── k8s-deployment.yaml         # Kubernetes deployment
+│
+├── src/
+│   ├── core/
+│   │   └── planner.py            # TravelPlanner logic using LLM
+│   ├── chains/
+│   │   └── itinerary_chain.py    # Itinerary chain logic & prompt construction
+│   ├── config/
+│   │   └── config.py             # Load API keys and .env settings
+│   ├── utils/
+│   │   ├── logger.py             # Logging with daily log rotation
+│   │   └── custom_exception.py   # Exception handling with traceback info
+│
+├── filebeat.yaml              # Filebeat config for log shipping
+├── logstash.yaml              # Logstash pipeline config
+├── elasticsearch.yaml         # Elasticsearch deployment
+├── kibana.yaml                # Kibana UI setup
+│
+└── logs/
+    └── log_<date>.log         # Auto-generated log files
+```
+
+## 🔁 Project Architecture & Workflow
+
+```mermaid
+graph TD
+
+    %% ========== SECTION HEADERS ==========
+    A0["🔧 1. Development Phase"]:::header
+    B0["🚀 2. Deployment Phase"]:::header
+    C0["📊 3. Monitoring Phase"]:::header
+    D0["🗂️ Version Control"]:::header
+
+    %% ========== DEVELOPMENT ==========
+    A0 --> A1["🖥️ Streamlit UI"]
+    A1 -->|HTTP Requests| A2["🧠 Travel Planner"]
+    A2 --> A3["🔗 Itinerary Chain Logic"]
+    A3 --> A4["⚙️ Configuration Service"]
+    A4 -->|🔐 Env Vars / Secrets| A2
+
+    %% ========== DEPLOYMENT ==========
+    B0 --> B1["📄 Dockerfile"]
+    B1 --> B2["🏗️ Build Container Image"]
+    B2 --> B3["📦 Push to Registry"]
+    B3 --> B4["☸️ Kubernetes (Minikube)"]
+    B4 --> B5["🌐 GCP VM Instance"]
+
+    %% ========== MONITORING ==========
+    C0 --> C1["📥 Filebeat"]
+    B5 -->|📤 Logs| C1
+    C1 --> C2["🛠️ Logstash"]
+    C2 --> C3["📚 Elasticsearch"]
+    C3 --> C4["📈 Kibana Dashboards"]
+
+    %% ========== VERSION CONTROL ==========
+    D0 --> D1["🐙 GitHub"]
+    D1 -->|⚙️ CI/CD| B5
+
+    %% ========== CONNECTIONS ==========
+    A1 -.->|🧪 Dev Testing| B4
+    A2 -.->|🧪 Dev Testing| B4
+    A3 -.->|🧪 Dev Testing| B4
+
+    %% ========== STYLE ==========
+    classDef header fill:#ffffff,stroke:#222222,stroke-width:2px,font-size:16px,color:#000;
+    class A0,B0,C0,D0 header;
+```
+---
 ## 🧠 Tech Stack
 
 | Layer              | Tools Used                                                   |
@@ -37,6 +114,52 @@
 | CI/CD              | GitHub Actions / Custom Pipeline                             |
 
 ---
+## ⚙️ Setup Instructions
+### ✅ Prerequisites
+Make sure you have the following installed and configured before starting:
+- 🐍 Python 3.10+
+- 🐳 Docker
+- ☸️ Minikube (for Kubernetes deployment)
+- ☁️ GCP VM Instance (for cloud hosting)
+- 🔑 Groq API Key (LLaMA 3.3 70B model)
 
-## 🧱 Project Structure
+### 📁 Local Setup
+```bash
+# Clone the repo
+git clone https://github.com/aimldinesh/TripWise.git
+cd TripWise
+
+# Create .env file
+echo "GROQ_API_KEY=your_key_here" > .env
+
+# Install dependencies
+pip install -e .
+
+# Run Streamlit app
+streamlit run app.py
+
+```
+### 🐳 Docker Setup
+```bash
+# Build Docker image
+docker build -t tripwise-app .
+
+# Run the container
+docker run -p 8501:8501 tripwise-app
+```
+---
+## ☸️ Complete Deployment Setup
+
+---
+## 📊 Monitoring Setup (ELK Stack)
+- Filebeat → Collects logs from app container
+- Logstash → Filters & transforms logs
+- Elasticsearch → Stores log data
+- Kibana → Visualizes logs in dashboard
+All components are deployed using Kubernetes under the logging namespace.
+
+---
+## 📸 Sample Output
+---
+## 🛠️ Future Improvements
 

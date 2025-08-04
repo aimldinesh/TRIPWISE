@@ -25,37 +25,6 @@
 
 ---
 
-## 🧱 Project Structure
-```bash
-TripWise/
-│
-├── app.py                      # Streamlit main app
-├── requirements.txt            # Python dependencies
-├── setup.py                    # Package setup
-├── .env                        # Environment variables
-├── Dockerfile                  # Docker image definition
-├── k8s-deployment.yaml         # Kubernetes deployment
-│
-├── src/
-│   ├── core/
-│   │   └── planner.py            # TravelPlanner logic using LLM
-│   ├── chains/
-│   │   └── itinerary_chain.py    # Itinerary chain logic & prompt construction
-│   ├── config/
-│   │   └── config.py             # Load API keys and .env settings
-│   ├── utils/
-│   │   ├── logger.py             # Logging with daily log rotation
-│   │   └── custom_exception.py   # Exception handling with traceback info
-│
-├── filebeat.yaml              # Filebeat config for log shipping
-├── logstash.yaml              # Logstash pipeline config
-├── elasticsearch.yaml         # Elasticsearch deployment
-├── kibana.yaml                # Kibana UI setup
-│
-└── logs/
-    └── log_<date>.log         # Auto-generated log files
-```
-
 ## 🔁 Project Architecture & Workflow
 
 ```mermaid
@@ -111,8 +80,38 @@ graph TD
 | LangChain Modules  | `langchain`, `langchain_community`, `langchain_groq`         |
 | Deployment         | Docker, Kubernetes (Minikube), GCP VM                        |
 | Monitoring         | Filebeat, Logstash, Elasticsearch, Kibana                    |
-| CI/CD              | GitHub Actions / Custom Pipeline                             |
 
+---
+## 🧱 Project Structure
+```bash
+TripWise/
+│
+├── app.py                      # Streamlit main app
+├── requirements.txt            # Python dependencies
+├── setup.py                    # Package setup
+├── .env                        # Environment variables
+├── Dockerfile                  # Docker image definition
+├── k8s-deployment.yaml         # Kubernetes deployment
+│
+├── src/
+│   ├── core/
+│   │   └── planner.py            # TravelPlanner logic using LLM
+│   ├── chains/
+│   │   └── itinerary_chain.py    # Itinerary chain logic & prompt construction
+│   ├── config/
+│   │   └── config.py             # Load API keys and .env settings
+│   ├── utils/
+│   │   ├── logger.py             # Logging with daily log rotation
+│   │   └── custom_exception.py   # Exception handling with traceback info
+│
+├── filebeat.yaml              # Filebeat config for log shipping
+├── logstash.yaml              # Logstash pipeline config
+├── elasticsearch.yaml         # Elasticsearch deployment
+├── kibana.yaml                # Kibana UI setup
+│
+└── logs/
+    └── log_<date>.log         # Auto-generated log files
+```
 ---
 ## ⚙️ Setup Instructions
 ### ✅ Prerequisites

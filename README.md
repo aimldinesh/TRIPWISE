@@ -121,24 +121,38 @@ Make sure you have the following installed and configured before starting:
 - ☸️ Minikube (for Kubernetes deployment)
 - ☁️ GCP VM Instance (for cloud hosting)
 - 🔑 Groq API Key (LLaMA 3.3 70B model)
+--- 
+## 🚀 How to Run Locally
+Follow these steps to set up and run **NexPick** locally:
 
-### 📁 Local Setup
+### 1. Clone the Repository
+
 ```bash
-# Clone the repo
 git clone https://github.com/aimldinesh/TripWise.git
 cd TripWise
-
-# Create .env file
-echo "GROQ_API_KEY=your_key_here" > .env
-
-# Install dependencies
-pip install -e .
-
-# Run Streamlit app
-streamlit run app.py
-
 ```
-### 🐳 Docker Setup
+### 2. Create and Activate Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+### 3. Install Dependencies
+```bash
+pip install -e .
+```
+### 4. Set Environment Variables
+Create a .env file in the root directory and add your secrets like:
+```bash
+GROQ_API_KEY = " " 
+```
+### 5. Run the App
+```bash
+streamlit run app.py
+```
+The app will be available at:
+---
+
+## ✅ Docker Run (Optional)
 ```bash
 # Build Docker image
 docker build -t tripwise-app .

@@ -97,11 +97,11 @@ TripWise/
 │   ├── core/
 │   │   └── planner.py            # TravelPlanner logic using LLM
 │   ├── chains/
-│   │   └── itinerary_chain.py    # Itinerary chain logic & prompt construction
+│   │   └── itinerary_chain.py    # Itinerary chain logic
 │   ├── config/
 │   │   └── config.py             # Load API keys and .env settings
 │   ├── utils/
-│   │   ├── logger.py             # Logging with daily log rotation
+│   │   ├── logger.py             # Logging
 │   │   └── custom_exception.py   # Exception handling with traceback info
 │
 ├── filebeat.yaml              # Filebeat config for log shipping
@@ -110,7 +110,7 @@ TripWise/
 ├── kibana.yaml                # Kibana UI setup
 │
 └── logs/
-    └── log_<date>.log         # Auto-generated log files
+    └── log_<date>.log         # generated log files
 ```
 ---
 ## ⚙️ Setup Instructions

@@ -176,4 +176,6 @@ All components are deployed using Kubernetes under the logging namespace.
 ## 📸 Sample Output
 ---
 ## 🛠️ Future Improvements
-
+---
+## 🤝 Contributors
+- [Dinesh Chaudhary](https://github.com/aimldinesh)

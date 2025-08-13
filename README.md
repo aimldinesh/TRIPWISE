@@ -8,9 +8,14 @@
   <img src="https://img.shields.io/badge/Monitoring-ELK%20Stack-yellow" alt="Monitoring Badge">
 </p>
 
+<div align="center">
+
 # 🌍 TripWise: Your Smart Travel Companion
 
-**TripWise** is an intelligent AI-powered travel itinerary planner built using **LLaMA-3.3-70B**, **Streamlit**, and **LangChain**. It leverages user inputs like destination, travel dates, and interests to generate personalized itineraries in real-time.
+**TripWise** is an intelligent AI-powered travel itinerary planner built using **LLaMA-3.3-70B**, **Streamlit**, and **LangChain**.  
+It leverages user inputs like destination, travel dates, and interests to generate personalized itineraries in real-time.
+
+</div>
 
 ---
 

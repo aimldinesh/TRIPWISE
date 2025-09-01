@@ -143,7 +143,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 ### 3. Install Dependencies
 ```bash
-pip install -e .
+pip install -e . or pip install -r requirements.txt
 ```
 ### 4. Set Environment Variables
 Create a .env file in the root directory and add your secrets like:

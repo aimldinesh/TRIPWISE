@@ -167,9 +167,7 @@ docker build -t tripwise-app .
 docker run -p 8501:8501 tripwise-app
 ```
 ---
-## ☸️ Complete Deployment Setup
 
----
 ## 📊 Monitoring Setup (ELK Stack)
 - Filebeat → Collects logs from app container
 - Logstash → Filters & transforms logs
@@ -213,9 +211,6 @@ All components are deployed using Kubernetes under the logging namespace.
 |-------------------------|---------------------|----------------|
 | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/kibana/5.Kibana%20Discover%20Logs%20Overview.PNG" width="250" /> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/kibana/6.Kibana%20Discover%20Detailed%20Logs.PNG" width="250" /> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/kibana/7.Kibana_visualize.PNG" width="250" /> |
 
-
----
-## 🛠️ Future Improvements
 ---
 ## 🤝 Contributors
 - [Dinesh Chaudhary](https://github.com/aimldinesh)

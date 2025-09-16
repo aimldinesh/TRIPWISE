@@ -194,9 +194,24 @@ All components are deployed using Kubernetes under the logging namespace.
 |----------------------|----------------------------|---------------------------|
 | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/setup_and_running/1.elastics_search_setup.PNG" width="250"/> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/setup_and_running/2.logstash_and_filebeat_setup.PNG" width="250"/> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/setup_and_running/3.filebeat_setup_2.PNG" width="250"/> |
 
-| Streamlit App on GCP VM | Kibana Running on GCP VM |
+| Streamlit App running  on GCP VM | Kibana Running on GCP VM |
 |--------------------------|----------------------------|
 | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/setup_and_running/4.Streamlit_app_running_on_gcp_vm.PNG" width="250"/> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/setup_and_running/5.kibana_running_on_gcp_vm.PNG" width="250"/> |
+
+## 📊 Kibana Screenshots
+
+| Kibana Home | Stack Management |
+|-------------|------------------|
+| <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/kibana/1.Kibana%20Home.PNG" width="250" /> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/kibana/2.Kibana%20Stack%20Management.PNG" width="250" /> |
+
+| Index Pattern Creation | Index Pattern Fields |
+|------------------------|------------------------|
+| <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/kibana/3.Index%20Pattern%20Creation).PNG" width="250" /> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/kibana/4.Index%20Pattern%20Fields.PNG" width="250" /> |
+
+| Discover Logs Overview | Detailed Logs View | Visualization |
+|-------------------------|---------------------|----------------|
+| <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/kibana/5.Kibana%20Discover%20Logs%20Overview.PNG" width="250" /> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/kibana/6.Kibana%20Discover%20Detailed%20Logs.PNG" width="250" /> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/kibana/7.Kibana_visualize.PNG" width="250" /> |
+
 
 ---
 ## 🛠️ Future Improvements

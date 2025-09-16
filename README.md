@@ -180,16 +180,14 @@ All components are deployed using Kubernetes under the logging namespace.
 ---
 ## 📸 Application Screenshots  
 
-<p float="left">
-  <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/1.app_running_on_VM.PNG" width="300"/>
-  <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/2.Destination_cities_and_intrests.PNG" width="300"/>
-  <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/3.Destinition_cities_and_interests_itineary.png" width="300"/>
-</p>
+| App Running on VM | Destination Cities & Interests | Cities Itinerary |
+|-------------------|--------------------------------|------------------|
+| <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/1.app_running_on_VM.PNG" width="250"/> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/2.Destination_cities_and_intrests.PNG" width="250"/> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/3.Destinition_cities_and_interests_itineary.png" width="250"/> |
 
-<p float="left">
-  <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/4.Destinition_states_and_interests.png" width="300"/>
-  <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/5.Desitinition_states_and_interset_itineary.PNG" width="300"/>
-</p>
+| Destination States & Interests | States Itinerary |
+|--------------------------------|------------------|
+| <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/4.Destinition_states_and_interests.png" width="250"/> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/5.Desitinition_states_and_interset_itineary.PNG" width="250"/> |
+
 ---
 ## 🛠️ Future Improvements
 ---

@@ -128,7 +128,7 @@ Make sure you have the following installed and configured before starting:
 - 🔑 Groq API Key (LLaMA 3.3 70B model)
 --- 
 ## 🚀 How to Run Locally
-Follow these steps to set up and run **NexPick** locally:
+Follow these steps to set up and run **TripWise** locally:
 
 ### 1. Clone the Repository
 

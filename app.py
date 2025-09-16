@@ -120,7 +120,7 @@ with st.form("planner_form"):
     st.markdown("#### 📋 Tell us your travel preferences")
 
     city = st.text_input(
-        "📍 Destination City",
+        "📍 Destination State",
         value=st.session_state.last_city,
         placeholder="e.g., Goa, Varanasi, Rajasthan",
     )

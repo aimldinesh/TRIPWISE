@@ -189,7 +189,7 @@ _App running on GCP VM, input of cities & interests, and generated itinerary._
 |--------------------------------|------------------|
 | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/4.Destinition_states_and_interests.png" width="250"/> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/5.Desitinition_states_and_interset_itineary.PNG" width="250"/> |
 
-_Input of states & interests, and generated multi-day itinerary._
+_Input of states & interests, and generated  itinerary._
 
 ---
 

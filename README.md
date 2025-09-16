@@ -19,6 +19,25 @@ It leverages user inputs like destination, travel dates, and interests to genera
 
 ---
 
+## 📚 Table of Contents
+
+- [📌 Features](#-features)
+- [🔁 Project Architecture & Workflow](#-project-architecture--workflow)
+- [🧠 Tech Stack](#-tech-stack)
+- [🧱 Project Structure](#-project-structure)
+- [⚙️ Setup Instructions](#️-setup-instructions)
+  - [✅ Prerequisites](#-prerequisites)
+  - [🚀 How to Run Locally](#-how-to-run-locally)
+  - [✅ Docker Run (Optional)](#-docker-run-optional)
+- [📊 Monitoring Setup (ELK Stack)](#-monitoring-setup-elk-stack)
+- [☸️ Screenshots](#️-screenshots)
+  - [📸 Application Screenshots](#-application-screenshots)
+  - [⚙️ Setup & Running Screenshots](#️-setup--running-screenshots)
+  - [📊 Kibana Screenshots](#-kibana-screenshots)
+- [🤝 Contributors](#-contributors)
+
+---
+
 ## 📌 Features
 
 - 🧠 LLM-powered travel planning with LLaMA-3.3-70B

@@ -188,6 +188,16 @@ All components are deployed using Kubernetes under the logging namespace.
 |--------------------------------|------------------|
 | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/4.Destinition_states_and_interests.png" width="250"/> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/5.Desitinition_states_and_interset_itineary.PNG" width="250"/> |
 
+## ⚙️ Setup & Running Screenshots
+
+| Elasticsearch Setup | Logstash + Filebeat Setup | Detailed Filebeat Setup |
+|----------------------|----------------------------|---------------------------|
+| <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/setup_and_running/1.elastics_search_setup.PNG" width="250"/> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/setup_and_running/2.logstash_and_filebeat_setup.PNG" width="250"/> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/setup_and_running/3.filebeat_setup_2.PNG" width="250"/> |
+
+| Streamlit App on GCP VM | Kibana Running on GCP VM |
+|--------------------------|----------------------------|
+| <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/setup_and_running/4.Streamlit_app_running_on_gcp_vm.PNG" width="250"/> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/setup_and_running/5.kibana_running_on_gcp_vm.PNG" width="250"/> |
+
 ---
 ## 🛠️ Future Improvements
 ---

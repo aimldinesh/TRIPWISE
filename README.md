@@ -178,7 +178,8 @@ docker run -p 8501:8501 tripwise-app
 All components are deployed using Kubernetes under the logging namespace.
 
 ---
-## 📸 Application Screenshots  
+## ☸️ Screenshots
+### 📸 Application Screenshots  
 
 | App Running on VM | Destination Cities & Interests | Cities Itinerary |
 |-------------------|--------------------------------|------------------|
@@ -188,7 +189,7 @@ All components are deployed using Kubernetes under the logging namespace.
 |--------------------------------|------------------|
 | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/4.Destinition_states_and_interests.png" width="250"/> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/app_images/5.Desitinition_states_and_interset_itineary.PNG" width="250"/> |
 
-## ⚙️ Setup & Running Screenshots
+### ⚙️ Setup & Running Screenshots
 
 | Elasticsearch Setup | Logstash + Filebeat Setup | Detailed Filebeat Setup |
 |----------------------|----------------------------|---------------------------|
@@ -198,7 +199,7 @@ All components are deployed using Kubernetes under the logging namespace.
 |--------------------------|----------------------------|
 | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/setup_and_running/4.Streamlit_app_running_on_gcp_vm.PNG" width="250"/> | <img src="https://github.com/aimldinesh/TRIPWISE/blob/main/Screenshots/setup_and_running/5.kibana_running_on_gcp_vm.PNG" width="250"/> |
 
-## 📊 Kibana Screenshots
+### 📊 Kibana Screenshots
 
 | Kibana Home | Stack Management |
 |-------------|------------------|
